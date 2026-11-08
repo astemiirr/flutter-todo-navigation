@@ -1,0 +1,3 @@
+$ ./flutterw analyze --no-pub
+Analyzing sem_07_11...
+No issues found! (ran in 14.6s)

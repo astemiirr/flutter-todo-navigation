@@ -1,0 +1,25 @@
+$ ./flutterw test --no-pub --reporter expanded
+00:00 +0: loading /home/astemir/Flutter_course/sem_07_11/test/smoke_test.dart
+00:00 +0: шаблон запускается до заполнения TODO
+00:00 +1: All tests passed!
+
+$ ./flutterw test --no-pub --reporter expanded test/package_check.dart test/behavior_check.dart
+00:00 +0: loading /home/astemir/Flutter_course/sem_07_11/test/package_check.dart
+00:00 +0: /home/astemir/Flutter_course/sem_07_11/test/package_check.dart: flutter_slidable объявлен прямой runtime-зависимостью
+00:00 +1: /home/astemir/Flutter_course/sem_07_11/test/package_check.dart: flutter_slidable установлен и зафиксирован в lock-файле
+00:00 +2: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: (setUpAll)
+00:00 +2: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: свайп показывает действие, но сам не удаляет
+00:01 +3: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: добавление возвращает обрезанное название
+00:02 +4: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: Back закрывает форму без добавления
+00:02 +5: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: пустое название не сохраняется, ошибку можно исправить
+00:02 +6: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: отмена удаления: кнопка
+00:03 +7: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: отмена удаления: Back
+00:03 +8: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: подтверждение удаляет только выбранную задачу
+00:03 +9: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: одинаковые названия остаются разными задачами
+00:03 +10: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: пустой список и повторное добавление
+00:04 +11: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: форма и длинный текст при ширине 320.0
+00:04 +12: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: форма и длинный текст при ширине 800.0
+00:04 +13: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: владелец State удалён во время перехода
+00:04 +14: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: владелец State удалён во время диалога
+00:05 +15: /home/astemir/Flutter_course/sem_07_11/test/behavior_check.dart: (tearDownAll)
+00:05 +15: All tests passed!
